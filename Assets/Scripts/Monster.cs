@@ -6,10 +6,15 @@ using hanbin;
 public class Monster : MonoBehaviour
 {
     public Collider collider;
+    //정수
     public int a = 10;
+    //실수
     public float b = 11.5f;
+    //문자열
     public char c = 'a';
+    //문자행
     public string s = "hanbin";
+    //참거짓
     public bool d = true;
 
     public int playerMovement;
